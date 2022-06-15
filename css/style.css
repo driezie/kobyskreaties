@@ -51,7 +51,6 @@ header {
 .logo {
     cursor: pointer;
     transition: color 0.3s ease 0s;
-    /* font-size: 20px; */
     text-decoration: none;
     color: var(--text-color-primary);
 }
@@ -198,7 +197,7 @@ header {
     margin-bottom: 20px;
 }
 
-.container {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,4 +218,12 @@ header {
 
 .title {
     font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
